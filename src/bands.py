@@ -115,9 +115,16 @@ bands = {
             },
             "modis": {
                 "platform": "Terra/Aqua: MODIS",
+                "band": "M3",
+                "name": "Blue",
+                "wavelength": 478.0,
+                "bandwidth": 20.0,
+            },
+            "viirs": {
+                "platform": "SNPP/NOAA20/NOAA21: VIIRS",
                 "band": "B3",
                 "name": "Blue",
-                "wavelength": 469.0,
+                "wavelength": 480.0,
                 "bandwidth": 20.0,
             },
             "planetscope": {
@@ -225,6 +232,13 @@ bands = {
             "modis": {
                 "platform": "Terra/Aqua: MODIS",
                 "band": "B4",
+                "name": "Green",
+                "wavelength": 555.0,
+                "bandwidth": 20.0,
+            },
+            "viirs": {
+                "platform": "SNPP/NOAA20/NOAA21: VIIRS",
+                "band": "M4",
                 "name": "Green",
                 "wavelength": 555.0,
                 "bandwidth": 20.0,
@@ -343,7 +357,14 @@ bands = {
                 "band": "B1",
                 "name": "Red",
                 "wavelength": 645.0,
-                "bandwidth": 50.0,
+                "bandwidth": 40.0,
+            },
+            "viirs": {
+                "platform": "SNPP/NOAA20/NOAA21: VIIRS",
+                "band": "M5",
+                "name": "Red",
+                "wavelength": 672.0,
+                "bandwidth": 20.0,
             },
             "planetscope": {
                 "platform": "PlanetScope",
@@ -530,6 +551,13 @@ bands = {
                 "wavelength": 858.5,
                 "bandwidth": 35.0,
             },
+            "viirs": {
+                "platform": "SNPP/NOAA20/NOAA21: VIIRS",
+                "band": "M7",
+                "name": "Near-Infrared (NIR)",
+                "wavelength": 865.0,
+                "bandwidth": 39.0,
+            },
             "planetscope": {
                 "platform": "PlanetScope",
                 "band": "B8",
@@ -639,6 +667,13 @@ bands = {
                 "wavelength": 1640.0,
                 "bandwidth": 24.0,
             },
+            "viirs": {
+                "platform": "SNPP/NOAA20/NOAA21: VIIRS",
+                "band": "M10",
+                "name": "Short-wave Infrared (SWIR) 1",
+                "wavelength": 1610.0,
+                "bandwidth": 60.0,
+            },
         },
     },
     "S2": {
@@ -702,6 +737,13 @@ bands = {
                 "band": "B7",
                 "name": "Short-wave Infrared (SWIR) 2",
                 "wavelength": 2130.0,
+                "bandwidth": 50.0,
+            },
+            "viirs": {
+                "platform": "SNPP/NOAA20/NOAA21: VIIRS",
+                "band": "M11",
+                "name": "Short-wave Infrared (SWIR) 2",
+                "wavelength": 2250.0,
                 "bandwidth": 50.0,
             },
         },
